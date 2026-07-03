@@ -1,0 +1,13 @@
+{
+    "name": "kte/project",
+    "description": "Project KTE",
+    "require": {
+        "lbuchs/webauthn": "2.0"
+    },
+    "authors": [
+        {
+            "name": "KTE",
+            "email": "kte@example.com"
+        }
+    ]
+}

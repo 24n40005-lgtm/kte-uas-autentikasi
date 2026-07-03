@@ -1,0 +1,22 @@
+{
+  "name": "Keamanan Transaksi Elektronik - UAS",
+  "short_name": "KTE UAS",
+  "description": "Sistem Autentikasi Ganda (Google SSO & Fonnte WhatsApp OTP) dan Biometrik Keamanan Transaksi Elektronik.",
+  "start_url": "index.php",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icons/icon-192.jpg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/icon-512.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    }
+  ]
+}

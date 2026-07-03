@@ -1,0 +1,9 @@
+# Ignore composer dependencies
+/vendor/
+
+# Ignore local configuration containing private tokens/passwords
+/config.php
+
+# Ignore logs and temp files
+*.log
+*.tmp
