@@ -1,6 +1,3 @@
-# Ignore composer dependencies
-/vendor/
-
 # Ignore logs and temp files
 *.log
 *.tmp
