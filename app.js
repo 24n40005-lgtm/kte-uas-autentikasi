@@ -375,12 +375,12 @@ async function handleAdminLogin(event) {
         const options = {
             publicKey: {
                 challenge: crypto.getRandomValues(new Uint8Array(32)), // challenge acak
+                rpId: window.location.hostname, // Memastikan RP ID cocok dengan host
                 timeout: 60000,
                 userVerification: "required",
                 allowCredentials: [{
                     id: savedRawIdBuffer,
-                    type: "public-key",
-                    transports: ["internal"]
+                    type: "public-key"
                 }]
             }
         };

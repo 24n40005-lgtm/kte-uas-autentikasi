@@ -1,8 +1,8 @@
-const CACHE_NAME = 'kte-uas-cache-v2';
+const CACHE_NAME = 'kte-uas-cache-v3';
 const ASSETS_TO_CACHE = [
   'index.php',
   'style.css',
-  'app.js?v=2',
+  'app.js?v=3',
   'manifest.json',
   'icons/icon-192.jpg',
   'icons/icon-512.jpg'
